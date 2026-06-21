@@ -1,1 +1,22 @@
-@import "tailwindcss";
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+:root {
+    --bg: #ffffff;
+    --accent: #111118;
+    --accent-dim: rgba(200, 245, 66, 0.12);
+    --text: #f0f0f0;
+    --muted: #6b6b80;
+    --font-display: 'Poppins', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    width: 100%;
+}

@@ -1,0 +1,90 @@
+.detection-wrapper {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 40px;
+  padding-top: 100px; 
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.detection-title {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.detection-content {
+  display: flex;
+  gap: 20px;
+}
+
+.empty-zone {
+  width: 60%;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  min-height: 350px;
+}
+
+.fraud-list {
+  width: 40%;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.fraud-list-title {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.fraud-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fraud-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+.fraud-account {
+  font-weight: 600;
+  color: #222;
+}
+
+.fraud-type {
+  font-size: 13px;
+  color: #4a90d9;
+  margin-top: 4px;
+}
+
+.no-data {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.no-data h1 {
+  color: #555;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.no-data p {
+  color: #888;
+  font-size: 15px;
+}
